@@ -64,9 +64,9 @@ header{
   
   #main-wrapper p {
     position: absolute;/*絶対配置*/
-    color: black;/*文字は白に*/
+    color: black;
  
-    font-size: 4em;/*サイズ2倍*/
+    font-size: 70px;
     font-family :Quicksand, 'serif';/*Google Font*/
     top: 50%;
     left: 50%;
