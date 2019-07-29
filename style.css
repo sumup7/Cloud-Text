@@ -3,7 +3,6 @@ body{
     background: #aeeff0;;
 
 }
-
 header{
     background: #f1f0d1;
 }
@@ -65,8 +64,7 @@ header{
   #main-wrapper p {
     position: absolute;/*絶対配置*/
     color: black;
- 　 font-size: 70px;
-    font-size: calc(18px + 0.25vw); 
+    font-size: calc(100vw / 30); 
     font-family :Quicksand, 'serif';/*Google Font*/
     top: 50%;
     left: 50%;
