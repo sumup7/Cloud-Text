@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    background: #aeeff0;;
+
+}
+
+header{
+    background: #f1f0d1;
+}
+
+.headerInner{
+    width: 650;
+    height: 100;
+    margin: auto;
+    font-size: 3ex ;
+}
+.mainInner{
+    width: 650;
+    margin: auto;
+}
+#processing {
+    font-family: Quicksand, 'Hiragino Kaku Gothic Pro';
+    padding: 1px 4px;
+    background-color: #daa592;
+    border-style: none;
+    font-size: 5ex;
+
+    
+}
+#message1{
+    padding: 1px 4px;
+    background-color: #f0e3c4;
+    border-style: none;
+    font-size: 2ex ;
+}
+#message2{
+    padding: 1px 4px;
+    background-color: #f0e3c4;
+    border-style: none;
+    font-size: 2ex ;
+}
+#message3{
+    padding: 1px 4px;
+    background-color: #f0e3c4;
+    border-style: none;
+    font-size: 2ex ;
+}
+#message4{
+    padding: 1px 4px;
+    background-color: #f0e3c4;
+    border-style: none;
+    font-size: 2ex ;
+}
+#main-wrapper .on {
+    display: block;
+}
+#main-wrapper .off {
+    display: none;
+}
+
+#main-wrapper {/*親div*/
+    position: relative;/*相対配置*/
+    }
+  
+  #main-wrapper p {
+    position: absolute;/*絶対配置*/
+    color: black;/*文字は白に*/
+ 
+    font-size: 4em;/*サイズ2倍*/
+    font-family :Quicksand, 'serif';/*Google Font*/
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+
+    }
+  
+  .main-wrapper img {
+    width: 100%;
+    height: 80%;
+    }
