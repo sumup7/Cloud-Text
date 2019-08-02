@@ -71,7 +71,7 @@ document.getElementById('message3').onclick = () => {
 
 document.getElementById('message4').onclick = () => {
   // ここに#buttonをクリックしたら発生させる処理を記述する
-  document.getElementById("text").innerText = "誰だって、ほんとうにいいことをしたら、いちばん幸せなんだねぇ「銀河鉄道の夜」宮沢賢治";
+  document.getElementById("text").innerText = "「けれどもほんとうのさいわいは一体何だろう。」「銀河鉄道の夜」宮沢賢治";
 };
 
 document.getElementById('processing').onclick = () => {
