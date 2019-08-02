@@ -61,12 +61,12 @@ document.getElementById('message1').onclick = () => {
 
 document.getElementById('message2').onclick = () => {
   // ここに#buttonをクリックしたら発生させる処理を記述する
-  document.getElementById("text").innerText = "…………ブウウ――――ンンン――――ンンンン…………　「ドグラ・マグラ」夢野久作";
+  document.getElementById("text").innerText = "　「……お兄さま。お兄さま。お兄さまお兄さまお兄さまお兄さまお兄さま。……モウ一度……今のお声を……聞かせてエーーッ…………」「ドグラ・マグラ」夢野久作";
 };
 
 document.getElementById('message3').onclick = () => {
   // ここに#buttonをクリックしたら発生させる処理を記述する
-  document.getElementById("text").innerText = "恥の多い人生を生涯を送って来ました。「人間失格」太宰治";
+  document.getElementById("text").innerText = "あさ、眼をさますときの気持は、面白い。「女生徒」太宰治";
 };
 
 document.getElementById('message4').onclick = () => {

@@ -23,32 +23,38 @@ header{
     background-color: #daa592;
     border-style: none;
     font-size: 5ex;
-
+    cursor: pointer;
     
 }
+
 #message1{
     padding: 1px 4px;
     background-color: #f0e3c4;
     border-style: none;
     font-size: 2ex ;
+    cursor: pointer;
 }
 #message2{
     padding: 1px 4px;
     background-color: #f0e3c4;
     border-style: none;
     font-size: 2ex ;
+    cursor: pointer;
 }
 #message3{
     padding: 1px 4px;
     background-color: #f0e3c4;
     border-style: none;
     font-size: 2ex ;
+    cursor: pointer;
+
 }
 #message4{
     padding: 1px 4px;
     background-color: #f0e3c4;
     border-style: none;
     font-size: 2ex ;
+    cursor: pointer;
 }
 #main-wrapper .on {
     display: block;
