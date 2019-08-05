@@ -18,21 +18,33 @@ header{
     margin: auto;
 }
 #processing {
-    font-family: Quicksand, 'Hiragino Kaku Gothic Pro';
+    font-family: Quicksand, 'Hiragino Aka Gothic Pro';
     padding: 1px 4px;
     background-color: #daa592;
     border-style: none;
     font-size: 5ex;
     cursor: pointer;
+    border-radius: 4px;
     
 }
-
+#reset{
+    font-family: Quicksand, 'Hiragino Aka Gothic Pro';
+    padding: 1px 4px;
+    background-color: #daa592;
+    border-style: none;
+    font-size: 5ex;
+    cursor: pointer;
+    border-radius: 4px;
+    
+}
 #message1{
     padding: 1px 4px;
     background-color: #f0e3c4;
     border-style: none;
     font-size: 2ex ;
     cursor: pointer;
+    border-radius: 4px;
+    
 }
 #message2{
     padding: 1px 4px;
@@ -40,6 +52,7 @@ header{
     border-style: none;
     font-size: 2ex ;
     cursor: pointer;
+    border-radius: 4px;
 }
 #message3{
     padding: 1px 4px;
@@ -47,6 +60,7 @@ header{
     border-style: none;
     font-size: 2ex ;
     cursor: pointer;
+    border-radius: 4px;
 
 }
 #message4{
@@ -54,6 +68,20 @@ header{
     background-color: #f0e3c4;
     border-style: none;
     font-size: 2ex ;
+    cursor: pointer;
+    border-radius: 4px;
+    
+}
+#in1{
+    cursor: pointer;
+}
+#in2{
+    cursor: pointer;
+}
+#in3{
+    cursor: pointer;
+}
+#in4{
     cursor: pointer;
 }
 #main-wrapper .on {

@@ -108,3 +108,39 @@ document.getElementById("img5").className="on";
 document.getElementById("img6").className="off";
 document.getElementById("img7").className="off";
 document.getElementById("img8").className="off";}};
+
+
+document.getElementById('reset').onclick = () => {
+  // ここに#buttonをクリックしたら発生させる処理を記述する
+if(photo===4){ document.getElementById("img1").className="off";  
+document.getElementById("img2").className="off";
+document.getElementById("img3").className="off";
+document.getElementById("img4").className="on";
+document.getElementById("img5").className="off";
+document.getElementById("img6").className="off";
+document.getElementById("img7").className="off";
+document.getElementById("img8").className="off";}
+else if(photo===3){ document.getElementById("img1").className="off";  
+document.getElementById("img2").className="off";
+document.getElementById("img3").className="on";
+document.getElementById("img4").className="off";
+document.getElementById("img5").className="off";
+document.getElementById("img6").className="off";
+document.getElementById("img7").className="off";
+document.getElementById("img8").className="off";}
+else if(photo===2){document.getElementById("img1").className="off";  
+document.getElementById("img2").className="on";
+document.getElementById("img3").className="off";
+document.getElementById("img4").className="off";
+document.getElementById("img5").className="off";
+document.getElementById("img6").className="off";
+document.getElementById("img7").className="off";
+document.getElementById("img8").className="off";}
+else if(photo===1){document.getElementById("img1").className="on";  
+document.getElementById("img2").className="off";
+document.getElementById("img3").className="off";
+document.getElementById("img4").className="off";
+document.getElementById("img5").className="off";
+document.getElementById("img6").className="off";
+document.getElementById("img7").className="off";
+document.getElementById("img8").className="off";}};
