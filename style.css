@@ -213,12 +213,6 @@ header{
         font-size: 2ex ;
         cursor: pointer;
         border-radius: 4px;
-        transform: rotate(-45deg);
-        position:  absolute;
-        top: 10px;
-        bottom:  0;
-        left:  0;
-        right:  0;
     }
     #main-wrapper .on {
         display: block;
