@@ -74,26 +74,26 @@ header{
 }
 #in1{
     cursor: pointer;
-    width: 200;
-    height: 100;
+    max-width: 100%;
+    height: auto;
 }
 #in2{
     cursor: pointer;
-    width: 200;
-    height: 100;
+    max-width: 100%;
+    height: auto;
     float: left;
 }
 #in3{
     cursor: pointer;
-    width: 200;
-    height: 100;
+    max-width: 100%;
+    height: auto;
     float: left;
 
 }
 #in4{
     cursor: pointer;
-    width: 200;
-    height: 100;
+    max-width: 100%;
+    height: auto;
     float: left;
 }
 #main-wrapper .on {
