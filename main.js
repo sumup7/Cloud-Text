@@ -14,6 +14,9 @@ let photo = 1;
   document.getElementById("img7").className="off";
   document.getElementById("img8").className="off";
   photo=1;
+  scrollToTop() 
+  {scrollTo(0, 0);}
+
 };
 document.getElementById('in2').onclick = () => {
   // ここに#buttonをクリックしたら発生させる処理を記述する
@@ -72,6 +75,8 @@ document.getElementById('message3').onclick = () => {
 document.getElementById('message4').onclick = () => {
   // ここに#buttonをクリックしたら発生させる処理を記述する
   document.getElementById("text").innerText = "「けれどもほんとうのさいわいは一体何だろう。」「銀河鉄道の夜」宮沢賢治";
+  scrollToTop() 
+  {scrollTo(0, 0);}
 };
 
 document.getElementById('processing').onclick = () => {
